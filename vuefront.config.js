@@ -37,7 +37,7 @@ export default {
           ]
         }],
         ['FeaturedProduct', {
-          ids: [43, 40, 42, 30]
+          ids: JSON.parse(process.env.FEATURED_PRODUCT)
         }],
         'LatestProduct',
         'SpecialProduct',
@@ -81,6 +81,11 @@ export default {
     '/account*': {
       columnRight: [
         'Account'
+      ]
+    },
+    '/store/checkout': {
+      contentTop: [
+        'Checkout'
       ]
     }
   }
