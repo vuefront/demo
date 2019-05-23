@@ -1,5 +1,5 @@
-const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 require('dotenv').config()
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 export default {
   mode: 'universal',
