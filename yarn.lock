@@ -1222,6 +1222,13 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^3.2.0"
 
+"@nuxtjs/amp@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/amp/-/amp-0.0.0.tgz#8d45ff14676c2913c8df3beab747715324612cb6"
+  integrity sha512-eWhIQxFUO4a1qvIqbzBEfP85N3GvPe0q4pmjL7Q4S+3LgmDquUBv1EdZ7UH6MOpijPY555E40YiQzsNViKqlJg==
+  dependencies:
+    qs "^6.7.0"
+
 "@nuxtjs/dotenv@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.3.0.tgz#fcfd8fa9da767ce1a79c11104ab998d610e23731"
@@ -1944,6 +1951,11 @@ axios@^0.19.0:
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
+
+babel-helper-vue-jsx-merge-props@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha512-gsLiKK7Qrb7zYJNgiXKpXblxbV5ffSwR0f5whkPAaBAR4fhi6bwRZxX9wBlIc5M/v8CCkXUbXZL4N/nSE97cqg==
 
 babel-loader@^8.0.5, babel-loader@^8.0.6:
   version "8.0.6"
@@ -6798,6 +6810,11 @@ qs@6.5.2, qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+qs@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
+  integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -7820,6 +7837,11 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
+tb-skeleton@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/tb-skeleton/-/tb-skeleton-0.3.6.tgz#51ef0a47da9f7751b997003d3ed5691287035d31"
+  integrity sha512-mK47E7II/dMdwt1n7XtAqYO6Y2B6f7ttNVvsNuSSjE+obTQDjNoJxIINpzAHB08WW8EK4IXcmr0Mq5HvXFrfSQ==
+
 term-size@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/term-size/-/term-size-2.1.0.tgz#3aec444c07a7cf936e157c1dc224b590c3c7eef2"
@@ -8303,6 +8325,18 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-content-loader@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vue-content-loader/-/vue-content-loader-0.2.1.tgz#0eb332e2a72643d57fb209d72d6526573b191f5a"
+  integrity sha1-DrMy4qcmQ9V/sgnXLWUmVzsZH1o=
+  dependencies:
+    babel-helper-vue-jsx-merge-props "^2.0.3"
+
+vue-content-placeholders@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vue-content-placeholders/-/vue-content-placeholders-0.2.1.tgz#5876bda4577c80ff6d396fb33b2dbbf8b8cc140f"
+  integrity sha512-Q+HPjuY98R0fLQ45eOOCYeMY7vpjU1H/Qqs0ptdBI6xe3nDDsPE4r/kN5YA9rVxQFP/PKhG5qQR4rqy02xPabw==
 
 vue-functional-data-merge@^2.0.7:
   version "2.0.7"
