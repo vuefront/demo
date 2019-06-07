@@ -1222,13 +1222,6 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^3.2.0"
 
-"@nuxtjs/amp@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/amp/-/amp-0.0.0.tgz#8d45ff14676c2913c8df3beab747715324612cb6"
-  integrity sha512-eWhIQxFUO4a1qvIqbzBEfP85N3GvPe0q4pmjL7Q4S+3LgmDquUBv1EdZ7UH6MOpijPY555E40YiQzsNViKqlJg==
-  dependencies:
-    qs "^6.7.0"
-
 "@nuxtjs/dotenv@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.3.0.tgz#fcfd8fa9da767ce1a79c11104ab998d610e23731"
@@ -6810,11 +6803,6 @@ qs@6.5.2, qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-qs@^6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
-  integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
-
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -8448,10 +8436,10 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuefront-nuxt@0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.12.tgz#f73488df5cc199710c91335416375070673820d6"
-  integrity sha512-lVtHFDwTAfPJv/IcHNYuFDdxUAGsPZirq0ZKTZzP72qgXoyMHOizPC4e7fJ+KnIOhxuYKdm2a9kyLroaSNGhZA==
+vuefront-nuxt@0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.13.tgz#d38a032b98c2f2066d334fb24ca15f08aa08de55"
+  integrity sha512-O3Us1SIifg8xxZeDXvHfRUnnpJKfG8RmYEOcuO5XVs+PnUpjgJPsJEGXTatlvky3s2WSuuSJasUzLWWemScXMQ==
   dependencies:
     "@types/node" "^12.0.0"
     apollo-boost "^0.4.1"
@@ -8462,12 +8450,12 @@ vuefront-nuxt@0.1.12:
     vue "^2.6.10"
     vue-graphql-loader "^0.3.2"
     vue-i18n "^8.11.2"
-    vuefront "^0.1.11"
+    vuefront "^0.1.12"
 
-vuefront@^0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.1.11.tgz#4aa9047ca5265b895d8bf75a0ac66466c9edf905"
-  integrity sha512-zpw1fvUKaAYmF9ABPzkKwhelPdG6JjfaMVyHgyO13P4ee1KK07ti+v6VA9aGZut2eBJm+cfYFoxdU/WOt19JRQ==
+vuefront@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.1.12.tgz#8f746b0b599f3fd391646b3e3a334311a7af5989"
+  integrity sha512-v8cChFi1QcFOtFLMZ/ltLJiG69moNXx7vO/rYhY3Uk75pxnmlpby0I2iOOcJ9gDPPs2AVoxoV49ayi5HM9/nMw==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.9.0"
     axios "^0.19.0"
@@ -8475,6 +8463,7 @@ vuefront@^0.1.11:
     form-data "^2.3.3"
     lodash "^4.17.11"
     omit-deep-lodash "^1.1.4"
+    tb-skeleton "^0.3.6"
     vue "^2.6.10"
     vue-image-lightbox "^6.2.0"
     vue-lazyload "^1.2.6"

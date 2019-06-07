@@ -22,8 +22,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     'vuefront-nuxt',
-    'cookie-universal-nuxt',
-    '@nuxtjs/amp'
+    'cookie-universal-nuxt'
   ],
   build: {
     babel: {
