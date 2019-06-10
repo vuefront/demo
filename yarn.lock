@@ -2716,18 +2716,26 @@ cookie-signature@1.0.6:
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
   integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
 
-cookie-universal-nuxt@^2.0.14:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/cookie-universal-nuxt/-/cookie-universal-nuxt-2.0.14.tgz#6fdf8e928eadd7611c04a57614fe2e29b60eb971"
-  integrity sha512-ih9Z0Z2K6eLaugTttGCVN85nogKseIFF/dqup3klvYC4mQS3+1IloqBqzTL/N7degBBAols2oppwYNDmaRtVig==
+cookie-universal-nuxt@^2.0.16:
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/cookie-universal-nuxt/-/cookie-universal-nuxt-2.0.16.tgz#8d528098c973162b352199240e40da0e5429b13f"
+  integrity sha512-wRK2zw8w+a5xPehb5kLbgOic/4mbjl2exUCxWZwGuttcwsFgOymiwDrCOzmQslqrDevPDL2SsBbH6wtOm7dB9g==
   dependencies:
     "@types/cookie" "^0.3.1"
-    cookie-universal "^2.0.14"
+    cookie-universal "^2.0.16"
 
 cookie-universal@^2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/cookie-universal/-/cookie-universal-2.0.14.tgz#1b4f27cffccfc2e47703fa235c1f67f931213041"
   integrity sha512-m6J0DQa4/RQvXhzUG37EY1ynK3Uq1BKzp5hotST9olrzjrRx+B0vNPx7azg0/X0XrYQvL7MMbPXwou8m0BNDwg==
+  dependencies:
+    "@types/cookie" "^0.3.1"
+    cookie "^0.3.1"
+
+cookie-universal@^2.0.16:
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/cookie-universal/-/cookie-universal-2.0.16.tgz#ec8b55789b502a377ef02ad230923c1dfa5c1061"
+  integrity sha512-EHtQ5Tg3UoUHG7LmeV3rlV3iYthkhUuYZ0y86EseypxGcUuvzxuHExEb6mHKDhDPrIrdewAHdG/aCHuG/T4zEg==
   dependencies:
     "@types/cookie" "^0.3.1"
     cookie "^0.3.1"
@@ -8436,10 +8444,10 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuefront-nuxt@0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.13.tgz#d38a032b98c2f2066d334fb24ca15f08aa08de55"
-  integrity sha512-O3Us1SIifg8xxZeDXvHfRUnnpJKfG8RmYEOcuO5XVs+PnUpjgJPsJEGXTatlvky3s2WSuuSJasUzLWWemScXMQ==
+vuefront-nuxt@0.1.14:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.14.tgz#1764085a98315bb6574166a6b12bfb53769f6731"
+  integrity sha512-6JiCy21XU27sLY3QsRLz1ajGK8ZqFHhWvwEhA77SueKf7SkFr/TysYTKi7km9ZI3YVxAii6ueNYvQ1cPF5+wrg==
   dependencies:
     "@types/node" "^12.0.0"
     apollo-boost "^0.4.1"
