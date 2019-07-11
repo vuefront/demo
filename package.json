@@ -17,13 +17,14 @@
     "nuxt": "^2.8.1",
     "tb-skeleton": "^0.3.6",
     "vue-content-placeholders": "^0.2.1",
-    "vuefront-nuxt": "0.1.15"
+    "vuefront": "vuefront/vuefront",
+    "vuefront-nuxt": "vuefront/vuefront-nuxt"
   },
   "devDependencies": {
     "babel-plugin-lodash": "^3.3.4",
     "lodash-webpack-plugin": "^0.11.5",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vue-content-loader": "^0.2.1"
+    "vue-content-loader": "^0.2.2"
   }
 }
