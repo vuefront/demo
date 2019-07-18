@@ -17,8 +17,7 @@
     "nuxt": "^2.8.1",
     "tb-skeleton": "^0.3.6",
     "vue-content-placeholders": "^0.2.1",
-    "vuefront": "vuefront/vuefront",
-    "vuefront-nuxt": "vuefront/vuefront-nuxt"
+    "vuefront-nuxt": "^0.1.16"
   },
   "devDependencies": {
     "babel-plugin-lodash": "^3.3.4",
