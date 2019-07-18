@@ -8347,10 +8347,10 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuefront-nuxt@^0.1.17:
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.17.tgz#cb471198371a7825bdefb1fd919c50630837a316"
-  integrity sha512-lF1qIHJpFhSiDHpziOx/aMPmMJwFXYeBkgXgbz56uHU9o2FVbrnwu3SVT2ZAx3pS2gyrOLkkpLRuuA5QCtQSvQ==
+vuefront-nuxt@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.1.18.tgz#1dc80b192f4be5e705a2d2ef6e0a138b9bc6f28a"
+  integrity sha512-cc97kVNqrM79r/0kvwSFtw59RxpeJoHugqzRpOMwMb8R3tUjv4gq4ep8Aqc+vLY8Oc/C65zpGYJItOnN8cGyBA==
   dependencies:
     "@types/node" "^12.6.8"
     apollo-boost "^0.4.3"
