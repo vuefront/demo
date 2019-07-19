@@ -15,6 +15,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'VueFront' }
     ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png'
+      }
+    ],
     script: []
   },
   loading: { color: '#3B8070' },
@@ -29,8 +36,10 @@ export default {
       plugins: ['lodash']
     },
     extractCSS: true,
-    plugins: [new LodashModuleReplacementPlugin({
-      shorthands:true
-    })]
+    plugins: [
+      new LodashModuleReplacementPlugin({
+        shorthands: true
+      })
+    ]
   }
 }
