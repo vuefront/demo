@@ -3,7 +3,9 @@ const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 export default {
   mode: 'universal',
-  env: {},
+  env: {
+    FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
+  },
   generate: {
     concurrency: 20,
     subFolders: false

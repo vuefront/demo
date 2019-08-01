@@ -1,3 +1,4 @@
+
 export default {
   logo: require('~/assets/img/VUE_JS.svg'),
   footerLogo: require('~/assets/img/VUE_JS_Footer.svg'),
