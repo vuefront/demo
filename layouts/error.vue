@@ -1,3 +1,3 @@
 <template>
-  <vf-template-error/>
+  <vf-t-error/>
 </template>

@@ -1,5 +1,6 @@
 export default {
-  theme: 'vuefront',
+  logo: require('~/assets/img/VUE_JS.svg'),
+  footerLogo: require('~/assets/img/VUE_JS_Footer.svg'),
   layouts: {
     '*': {
       headerMenu: [
