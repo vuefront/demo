@@ -30,7 +30,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
-    'vuefront-nuxt',
+      'vuefront-nuxt',
     'cookie-universal-nuxt'
   ],
   build: {
