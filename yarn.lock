@@ -5861,7 +5861,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@^2.9.1:
+nuxt@2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.9.1.tgz#6a9ce48d03b9e6f82919d4e66051b3d49b7aee36"
   integrity sha512-riZ9ZUXCtUnRWcixJj3Mja6t5ujGlD/9/E71VDwW47AvyxhlYrSzitSUSs9sBwsC+6zzwP8cCM2k1fO/2oWyrg==
@@ -8702,10 +8702,10 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuefront-nuxt@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.2.2.tgz#513cfd4863bebb53a8606134d9282e4460fbc340"
-  integrity sha512-FP2INT4wtNHxtj3HcJ0mKyPu8INe0rGiOBUtooWGYMJest7snOCn5vLZkKMIZWNG2GF1kxhSOBaWvaK4tsw1ew==
+vuefront-nuxt@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.2.3.tgz#794e1d61fe87ae556dcf87872260b86d19fce188"
+  integrity sha512-JhFMoUGe38lYy3vnQP5XrjC2O5i5BW1iPpEJeo9NOO7cXKvbDLBCR/uxYqZBA9jCho2JXschEdqw1Gd+VQh0bg==
   dependencies:
     "@types/node" "^12.7.2"
     apollo-boost "^0.4.4"
@@ -8716,12 +8716,12 @@ vuefront-nuxt@^0.2.2:
     vue "^2.6.10"
     vue-graphql-loader "^0.3.3"
     vue-i18n "^8.14.0"
-    vuefront "^0.2.1"
+    vuefront "^0.2.2"
 
-vuefront@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.2.1.tgz#3642429ca89de231cd872aafa25920ca6b2a6518"
-  integrity sha512-5GMXyeceOPhhbqXReylef2dbRRhVKf3pc41Q8yW+bD/jrl1s/bsH3eP6tc/69eMoYsFzlg/VnFpmJcpssOcx7w==
+vuefront@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.2.2.tgz#e71dfe27d658c821a7770d974c134c7d8b89fcc2"
+  integrity sha512-phYeKieav9IjwVdsRvFU3WpjlCXNWDORoy+9Gx44FvyddO4yoPyIahOjAlHWY8NnRS5L4UyM/WiCKtiizTHAeA==
   dependencies:
     "@babel/standalone" "^7.5.5"
     "@fortawesome/fontawesome-free" "^5.10.2"
