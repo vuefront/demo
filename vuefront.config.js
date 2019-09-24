@@ -42,8 +42,8 @@ export default {
           'Slideshow',
           {
             items: [
-              'https://opencart.vuefront.com/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg',
-              'https://opencart.vuefront.com/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg'
+              'https://img.dreamvention.com/vuefront/banners/Banner_demo_1.jpg',
+              'https://img.dreamvention.com/vuefront/banners/Banner_demo_2.jpg'
             ]
           }
         ],
