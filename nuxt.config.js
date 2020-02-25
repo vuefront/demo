@@ -7,7 +7,7 @@ export default {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
   generate: {
-    concurrency: 20,
+    concurrency: 5,
     subFolders: false
   },
   head: {
