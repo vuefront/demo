@@ -1,7 +1,13 @@
 
 export default {
-  logo: require('~/assets/img/VUE_JS.svg'),
-  footerLogo: require('~/assets/img/VUE_JS_Footer.svg'),
+  image: {
+    logo: {
+      path: '~/assets/img/VUE_JS.svg'
+    },
+    footerLogo: {
+      path: '~/assets/img/VUE_JS_Footer.svg'
+    },
+  },
   layouts: {
     '*': {
       headerMenu: [
