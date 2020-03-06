@@ -37,6 +37,11 @@ export default {
     babel: {
       plugins: ['lodash']
     },
+    splitChunks: {
+      layouts: true,
+      pages: true,
+      commons: true
+    },
     transpile: [/vuefront/],
     extractCSS: true,
     plugins: [
