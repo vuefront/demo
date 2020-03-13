@@ -15,7 +15,7 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "cookie-universal-nuxt": "^2.1.2",
     "nuxt": "2.11.0",
-    "vuefront-nuxt": "^0.3.8"
+    "vuefront-nuxt": "^0.3.9"
   },
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.8.4",
