@@ -1168,10 +1168,10 @@
     source-map "~0.6.1"
     vue-template-es2015-compiler "^1.9.0"
 
-"@vuefront/checkout-app@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@vuefront/checkout-app/-/checkout-app-0.1.0.tgz#e106fc647a3f63a177ac537c206b0e9f2f1fe3e8"
-  integrity sha512-n4bKWlrR6AA2nm9DPveYzY9kI6TRPGwz/L/grxpaXk6nmMyOxz0p+mcHTuFrLyZ3e9FHIH8NfeNhU3AebdqOaQ==
+"@vuefront/checkout-app@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@vuefront/checkout-app/-/checkout-app-0.1.1.tgz#b3a3a98623cbdad6e5b5395184cdc3fdc3697739"
+  integrity sha512-z7gvadCtWp/C5ur1av6mc7chSeHSs9EX+XBPvuzCWQGISSb4Ap85UrmJmmzhrRIosf9N4nV00291AiHbojKTYQ==
   dependencies:
     "@babel/standalone" "^7.8.4"
     bootstrap-vue "^2.5.0"
