@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "@vuefront/checkout-app": "^0.1.1",
+    "@vuefront/checkout-app": "^0.1.2",
     "cookie-universal-nuxt": "^2.1.2",
     "nuxt": "2.11.0",
     "vuefront": "vuefront/vuefront",
