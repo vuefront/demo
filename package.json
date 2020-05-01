@@ -15,7 +15,6 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@vuefront/checkout-app": "^0.1.3",
     "cookie-universal-nuxt": "^2.1.2",
-    "fsevents": "^2.1.3",
     "nuxt": "2.11.0",
     "vuefront": "vuefront/vuefront",
     "vuefront-nuxt": "vuefront/vuefront-nuxt"
