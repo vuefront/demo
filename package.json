@@ -16,6 +16,7 @@
     "@vuefront/checkout-app": "^0.1.3",
     "cookie-universal-nuxt": "^2.1.4",
     "nuxt": "2.14.7",
+    "vuefront": "file:.yalc/vuefront",
     "vuefront-nuxt": "vuefront/vuefront-nuxt#tailwind"
   },
   "devDependencies": {
