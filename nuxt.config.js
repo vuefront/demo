@@ -2,7 +2,6 @@ require('dotenv').config()
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 export default {
-  mode: 'universal',
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
@@ -35,15 +34,24 @@ export default {
   ],
   build: {
     babel: {
-      plugins: ['lodash']
+      plugins: ['lodash', 'preval']
     },
     splitChunks: {
       layouts: true,
       pages: true,
       commons: true
     },
-    transpile: [/vuefront/],
-    extractCSS: true,
+    postcss: {
+      preset: {
+        features: {
+          // Fixes: https://github.com/tailwindcss/tailwindcss/issues/1190#issuecomment-546621554
+          "focus-within-pseudo-class": false
+        }
+      },
+      plugins: {
+        'tailwindcss': {}
+      }
+    },
     plugins: [
       new LodashModuleReplacementPlugin({
         shorthands: true
