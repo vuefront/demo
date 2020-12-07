@@ -89,6 +89,58 @@
           <vf-m-list-group-item to="#">List item tree</vf-m-list-group-item>
       </vf-m-list-group>
     </div>
+    <vf-a-heading class="text-center mt-4">MEDIA</vf-a-heading>
+    <div class="my-8">
+      <vf-m-card>
+        <vf-m-card-body>
+          <vf-m-media>
+            <template #aside>
+              <vf-a-image blank-color="#ccc" width="64" alt="placeholder"></vf-a-image>
+            </template>
+
+            <vf-a-heading level="5" class="mt-0">Media Title</vf-a-heading>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+              Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
+              ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+            <p>
+              Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+
+            <vf-m-media>
+              <template #aside>
+                <vf-a-image blank-color="#ccc" width="64" heigth="64px" alt="placeholder"></vf-a-image>
+              </template>
+
+              <vf-a-heading level="5" class="mt-0">Nested Media</vf-a-heading>
+              <p class="mb-0">
+                Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+            </vf-m-media>
+          </vf-m-media>
+        </vf-m-card-body>
+      </vf-m-card>
+    </div>
+    <div class="my-8">
+      <vf-m-media right-align vertical-align="center">
+        <template #aside>
+          <vf-a-image blank blank-color="#ccc" width="80" alt="placeholder"></vf-a-image>
+        </template>
+        <h5 class="mt-0 mb-1">Media object</h5>
+        <p class="mb-0">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+          Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+          nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </p>
+      </vf-m-media>
+    </div>
+    <vf-a-heading class="text-center mt-4">TABLE</vf-a-heading>
+    <vf-m-table striped hover :fields="fields" :items="items"></vf-m-table>
+    <vf-a-heading class="text-center mt-4">TABLE HORIZONTAL</vf-a-heading>
+    <vf-m-table-horizontal striped hover :fields="fields" :items="items"></vf-m-table-horizontal>
   </vf-m-container>
 </template>
 <script>
@@ -102,6 +154,56 @@ export default {
       select: null,
       page: 2,
       state: true,
+      fields: [{
+                            key: "name",
+                            label: "Name"
+                        },
+                        {
+                            key: "image",
+                            label: "Image"
+                        },
+                        {
+                            key: "price",
+                            label: "Price"
+                        },
+                        {
+                            key: "model",
+                            label: "Model"
+                        },
+                        {
+                            key: "stock",
+                            label: "Stock"
+                        },
+                        {
+                            key: "shortDescription",
+                            label: "Description"
+                        }
+                    ],
+                    items: [{
+                            "id": "48",
+                            "name": "iPod Classic",
+                            "shortDescription": "More room to move.\r\n\t\t\r\n\t\t\tWith 80GB or 160GB of storage and up to 40 hours of battery life, the new..",
+                            "model": "product 20",
+                            "price": "95.72\u20ac",
+                            "special": "",
+                            "stock": true,
+                            "image": "https:\/\/opencart.vuefront.com\/image\/cache\/catalog\/demo\/ipod_classic_1-228x228.jpg",
+                            "imageLazy": "https:\/\/opencart.vuefront.com\/image\/cache\/catalog\/demo\/ipod_classic_1-10x10.jpg",
+                            "__typename": "Product"
+                        },
+                        {
+                            "id": "47",
+                            "name": "HP LP3065",
+                            "shortDescription": "Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Mon..",
+                            "model": "Product 21",
+                            "price": "95.72\u20ac",
+                            "special": "",
+                            "stock": true,
+                            "image": "https:\/\/opencart.vuefront.com\/image\/cache\/catalog\/demo\/hp_1-228x228.jpg",
+                            "imageLazy": "https:\/\/opencart.vuefront.com\/image\/cache\/catalog\/demo\/hp_1-10x10.jpg",
+                            "__typename": "Product"
+                        }
+                    ],
       options2: [
           { value: null, text: 'Please select an option' },
           { value: 'a', text: 'This is First option' },
