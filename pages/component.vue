@@ -6,7 +6,7 @@
     </div>
     <vf-a-heading class="text-center mt-4">BUTTON</vf-a-heading>
     <div class="text-center my-8">
-      <vf-a-button v-for="(value, index) in colors" :key="index" :color="value">{{value}}</vf-a-button>
+      <vf-a-button v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index">{{index}}</vf-a-button>
     </div>
      <div class="text-center my-8">
       <vf-a-button size="sm">Small Button</vf-a-button>
@@ -14,14 +14,14 @@
       <vf-a-button size="lg">Large Button</vf-a-button>
     </div>
     <div class="text-center my-8">
-      <vf-a-button v-for="(value, index) in colors" :key="index" :color="value" rounded>{{value}}</vf-a-button>
+      <vf-a-button v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index" rounded>{{index}}</vf-a-button>
     </div>
     <div class="text-center my-8">
       <vf-a-button disabled size="lg" color="primary">Disabled</vf-a-button>
       <vf-a-button disabled size="lg">Also Disabled</vf-a-button>
     </div>
     <div class="text-center my-8">
-      <vf-a-button v-for="(value, index) in colors" :key="index" :color="value" rounded outline>{{value}}</vf-a-button>
+      <vf-a-button v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index" rounded outline>{{index}}</vf-a-button>
     </div>
     <div class="text-center my-8">
       <vf-a-button animated-y>
@@ -45,14 +45,14 @@
     </div>
     <vf-a-heading class="text-center mt-4">ALERT</vf-a-heading>
     <div class="text-center my-8">
-      <vf-a-alert v-for="(value, index) in colors" :key="index" :color="value" :show="true" dismissible>{{value}}</vf-a-alert>
+      <vf-a-alert v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index" :show="true" dismissible>{{index}}</vf-a-alert>
     </div>
     <vf-a-heading class="text-center mt-4">BADGE</vf-a-heading>
      <div class="text-center my-8">
-      <vf-a-badge v-for="(value, index) in colors" :key="index" :color="value">{{value}}</vf-a-badge>
+      <vf-a-badge v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index">{{index}}</vf-a-badge>
     </div>
          <div class="text-center my-8">
-      <vf-a-badge v-for="(value, index) in colors" :key="index" :color="value" rounded>{{value}}</vf-a-badge>
+      <vf-a-badge v-for="(value, index) in $vuefront.tailwindConfig.theme.vuefront.colors" :key="index" :color="index" rounded>{{index}}</vf-a-badge>
     </div>
     <vf-a-heading class="text-center mt-4">CHECKBOX</vf-a-heading>
     <div>

@@ -1,9 +1,14 @@
 module.exports = {
-  purge: [],
   darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
+  // theme: {
+  //   extend: {
+      // vuefront: {
+      //   colors: {
+      //     primary: 'red',
+      //   }
+      // }
+  //   },
+  // },
   variants: {
     extend: {},
   },
