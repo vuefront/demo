@@ -36,7 +36,7 @@ export default {
     babel: {
       plugins: ['lodash', 'preval']
     },
-    extractCSS: true,
+    // extractCSS: true,
     splitChunks: {
       layouts: true,
       pages: true,
