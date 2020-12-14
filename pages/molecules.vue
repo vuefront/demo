@@ -61,14 +61,14 @@
     </div>
     <vf-a-heading class="text-center mt-4">BUTTON GROUP</vf-a-heading>
     <div class="text-center my-8">
-      <vf-m-button-group>
-        <vf-a-button>Button 1</vf-a-button>
-        <vf-a-button>Button 2</vf-a-button>
-        <vf-a-button>Button 3</vf-a-button>
+      <vf-m-button-group size="sm">
+        <vf-a-button>Left</vf-a-button>
+        <vf-a-button>Middle</vf-a-button>
+        <vf-a-button>Right</vf-a-button>
       </vf-m-button-group>
     </div>
     <div class="text-center my-8">
-      <vf-m-button-group size="sm">
+      <vf-m-button-group>
         <vf-a-button>Left</vf-a-button>
         <vf-a-button>Middle</vf-a-button>
         <vf-a-button>Right</vf-a-button>
