@@ -9631,6 +9631,11 @@ vue-image-lightbox@^7.2.0:
     hammerjs "^2.0.8"
     vue-lazyload "^1.3.2"
 
+vue-lazy-hydration@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/vue-lazy-hydration/-/vue-lazy-hydration-2.0.0-beta.4.tgz#11e7021a9bac003ea6ed74f132dcd0d025fafc1f"
+  integrity sha512-bhr7AxzrSEPed4cOawIeCxJmR8pglberR78x1zs0886xR+47/EXE9s0Ezss90CPINo8ApzUfA/r+SbNffn+t9w==
+
 vue-lazyload@^1.3.2, vue-lazyload@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.3.3.tgz#4df50a271bde9b74c3caf7a228d6e0af50d5682f"
@@ -9704,10 +9709,10 @@ vue@^2.6.11, vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuefront-nuxt@0.3.18:
-  version "0.3.18"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.18.tgz#2ef3f4bc46c87d073d0237102c7be85e3281e941"
-  integrity sha512-7EWAj7TI4Cgoul1CTa4Y/2wIWnK9bfDGNAoiyLmQtMd7BAWccjwGbYLjArB1tOUuK1IUGKPxJ+oEUcd9qKb+Ng==
+vuefront-nuxt@0.3.20:
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.20.tgz#811e2963ef89915546ebed8ded342bee5b60dedc"
+  integrity sha512-dQD87xlTvELOyijDRwC4snWO6Dwo5JUULQGHh85DGHrmVHF6pzmbh578H7j5tPhi1gDcCWKqzukJtgBR07idfQ==
   dependencies:
     "@types/node" "^14.0.27"
     apollo-boost "^0.4.9"
@@ -9721,12 +9726,12 @@ vuefront-nuxt@0.3.18:
     vue "^2.6.11"
     vue-graphql-loader "^0.3.3"
     vue-i18n "^8.20.0"
-    vuefront "0.3.16"
+    vuefront "0.3.18"
 
-vuefront@0.3.16:
-  version "0.3.16"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.3.16.tgz#e194008b65430e7a2fa6e5537bdedbacf687e350"
-  integrity sha512-dGo7/7p7jaxP3qRmgv5w2caWlkiigMN39BXWdzspPG/Jv6DrtmXsGIsXbssxZ4L4Pu1stWb9hRUpjwMLY2XDgA==
+vuefront@0.3.18:
+  version "0.3.18"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.3.18.tgz#609b2c52e9b09b9313c2ba3bc93e6af8e7c5448e"
+  integrity sha512-QoCtyZ9FiQAfRUAYII5soAK+SH1EvotGjqZb+xU5+0+zLeNYbOLHunTiSbdVXgehDhZ3AknAjF8YId42CPKVZA==
   dependencies:
     "@babel/standalone" "^7.12.9"
     "@jamescoyle/vue-icon" "^0.1.0"
@@ -9745,6 +9750,7 @@ vuefront@0.3.16:
     tb-skeleton "^0.3.6"
     vue "^2.6.12"
     vue-image-lightbox "^7.2.0"
+    vue-lazy-hydration "^2.0.0-beta.4"
     vue-lazyload "^1.3.3"
     vuelidate "^0.7.6"
     vuex "^3.5.1"
