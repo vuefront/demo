@@ -30,8 +30,26 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     'vuefront-nuxt',
-    'cookie-universal-nuxt'
+    'cookie-universal-nuxt',
+        [
+          "nuxt-compress",
+          {
+            gzip: {
+              cache: true
+            },
+            brotli: {
+              threshold: 10240
+            }
+          }
+        ],
   ],
+  buildModules: [
+    '@aceforth/nuxt-optimized-images',
+  ],
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true
+  },
   build: {
     babel: {
       plugins: ['lodash', 'preval']
