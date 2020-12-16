@@ -273,18 +273,18 @@ export default {
           { item: 'B', name: 'Option B' },
           { item: 'D', name: 'Option C', notEnabled: true },
           { item: { d: 1 }, name: 'Option D' }
-        ],
-        colors: [
-          'primary',
-          'secondary',
-          'success',
-          'info',
-          'warning',
-          'danger',
-          'white',
-          'light',
-          'dark'
         ]
+        // colors: [
+        //   'primary',
+        //   'secondary',
+        //   'success',
+        //   'info',
+        //   'warning',
+        //   'danger',
+        //   'white',
+        //   'light',
+        //   'dark'
+        // ]
     }
   }
 }
