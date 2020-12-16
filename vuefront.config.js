@@ -46,24 +46,24 @@ export default {
     },
     '/': {
       contentTop: [
-        [
-          'Slideshow',
-          {
-            items: [
-              'https://img.dreamvention.com/vuefront/banners/Banner_demo_1.jpg',
-              'https://img.dreamvention.com/vuefront/banners/Banner_demo_2.jpg'
-            ]
-          }
-        ],
-        [
-          'FeaturedProduct',
-          {
-            ids: JSON.parse(process.env.FEATURED_PRODUCT)
-          }
-        ],
-        'LatestProduct',
-        'SpecialProduct',
-        'LatestPost'
+        // [
+        //   'Slideshow',
+        //   {
+        //     items: [
+        //       'https://img.dreamvention.com/vuefront/banners/Banner_demo_1.jpg',
+        //       'https://img.dreamvention.com/vuefront/banners/Banner_demo_2.jpg'
+        //     ]
+        //   }
+        // ],
+        // [
+        //   'FeaturedProduct',
+        //   {
+        //     ids: JSON.parse(process.env.FEATURED_PRODUCT)
+        //   }
+        // ],
+        // 'LatestProduct',
+        // 'SpecialProduct',
+        // 'LatestPost'
       ]
     },
     '/search/*': {
