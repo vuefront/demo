@@ -44,12 +44,12 @@ export default {
         ],
   ],
   buildModules: [
-    '@aceforth/nuxt-optimized-images',
+    // '@aceforth/nuxt-optimized-images',
   ],
-  optimizedImages: {
-    optimizeImages: true,
-    optimizeImagesInDev: true
-  },
+  // optimizedImages: {
+  //   optimizeImages: true,
+  //   optimizeImagesInDev: true
+  // },
   build: {
     babel: {
       plugins: ['lodash', 'preval']

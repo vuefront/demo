@@ -17,7 +17,7 @@
     "cookie-universal-nuxt": "^2.1.4",
     "nuxt": "2.14.7",
     "nuxt-compress": "^4.1.0",
-    "vuefront-nuxt": "0.3.21"
+    "vuefront-nuxt": "0.3.22"
   },
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.8.4",
