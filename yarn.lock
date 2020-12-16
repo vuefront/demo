@@ -1991,7 +1991,7 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tailwindcss/custom-forms@github:tailwindlabs/tailwindcss-custom-forms":
+"@tailwindcss/custom-forms@tailwindlabs/tailwindcss-custom-forms":
   version "0.2.1"
   resolved "https://codeload.github.com/tailwindlabs/tailwindcss-custom-forms/tar.gz/13fe3074dd10a63528de0191063806e34ff6b829"
   dependencies:
@@ -12304,10 +12304,10 @@ vue@^2.6.11, vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuefront-nuxt@0.3.22:
-  version "0.3.22"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.22.tgz#37fcdb2e27970ad334a3f956ff2cf5c0dc3f7598"
-  integrity sha512-6toLRyiYXaqJyDkPRiFIFGtwFytKpYRRnOgiBfJAWL3uDtdOb6Sb6UZGKs8qm/Q2cg5xv2AIxve/tXlQHWR24A==
+vuefront-nuxt@0.3.23:
+  version "0.3.23"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.23.tgz#3558cd0ce8be2ad417eff2ea206bf6d850b68034"
+  integrity sha512-nhxSt/YSgI8PTPTZXbTGm0vqFHz3uqbBRurkyZ4G2BGNJ8xq1/SmSl3JP+OtnBPahXwlcurSNiYRawL0m5G0ig==
   dependencies:
     "@types/node" "^14.0.27"
     apollo-boost "^0.4.9"
