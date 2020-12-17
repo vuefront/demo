@@ -5,7 +5,7 @@ export default {
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
-  target: 'static',s
+  // target: 'static',s
   generate: {
     concurrency: 5,
     subFolders: false
