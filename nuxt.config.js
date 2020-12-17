@@ -54,12 +54,12 @@ export default {
     babel: {
       plugins: ['lodash', 'preval']
     },
-    extractCSS: true,
-    splitChunks: {
-      layouts: true,
-      pages: true,
-      commons: true
-    },
+    // extractCSS: true,
+    // splitChunks: {
+    //   layouts: true,
+    //   pages: true,
+    //   commons: true
+    // },
     postcss: {
       preset: {
         features: {
