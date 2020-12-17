@@ -5,6 +5,7 @@ export default {
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
+  target: 'static',s
   generate: {
     concurrency: 5,
     subFolders: false
@@ -54,12 +55,12 @@ export default {
     babel: {
       plugins: ['lodash', 'preval']
     },
-    // extractCSS: true,
-    // splitChunks: {
-    //   layouts: true,
-    //   pages: true,
-    //   commons: true
-    // },
+    extractCSS: true,
+    splitChunks: {
+      layouts: true,
+      pages: true,
+      commons: true
+    },
     postcss: {
       preset: {
         features: {
