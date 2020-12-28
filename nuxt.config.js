@@ -4,6 +4,7 @@ require('dotenv').config()
 export default {
   ssr: true,
   target: 'static',
+  modern: 'client',
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
