@@ -1,11 +1,12 @@
+import LodashModuleReplacementPlugin from 'lodash-webpack-plugin'
 require('dotenv').config()
-const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 export default {
+  ssr: true,
+  target: 'static',
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
-  // target: 'static',s
   generate: {
     concurrency: 5,
     subFolders: false
@@ -31,20 +32,13 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     'vuefront-nuxt',
-    'cookie-universal-nuxt',
-        [
-          "nuxt-compress",
-          {
-            gzip: {
-              cache: true
-            },
-            brotli: {
-              threshold: 10240
-            }
-          }
-        ],
+    'cookie-universal-nuxt'
   ],
   buildModules: [
+    // https://go.nuxtjs.dev/eslint
+    ['@nuxtjs/eslint-module', { fix: true }],
+    // https://go.nuxtjs.dev/stylelint
+    '@nuxtjs/stylelint-module'
     // '@aceforth/nuxt-optimized-images',
   ],
   // optimizedImages: {
@@ -65,11 +59,11 @@ export default {
       preset: {
         features: {
           // Fixes: https://github.com/tailwindcss/tailwindcss/issues/1190#issuecomment-546621554
-          "focus-within-pseudo-class": false
+          'focus-within-pseudo-class': false
         }
       },
       plugins: {
-        'tailwindcss': {}
+        tailwindcss: {}
       }
     },
     plugins: [
