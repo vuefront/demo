@@ -50,6 +50,7 @@ export default {
     babel: {
       plugins: ['lodash', 'preval']
     },
+    transpile: ['@vuefront/checkout-app'],
     extractCSS: true,
     splitChunks: {
       layouts: true,

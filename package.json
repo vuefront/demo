@@ -17,10 +17,17 @@
     "*.{js,vue}": "eslint",
     "*.{css,vue}": "stylelint"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "@aceforth/nuxt-optimized-images": "^1.3.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.2.2",
+    "@vuefront/checkout-app": "0.1.4",
     "cookie-universal-nuxt": "^2.1.4",
     "nuxt": "2.14.7",
     "nuxt-compress": "^4.1.0",

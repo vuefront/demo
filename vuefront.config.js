@@ -1,14 +1,13 @@
 
 export default {
-  app: [],
-  // app: ['@vuefront/checkout-app'],
+  app: ['@vuefront/checkout-app'],
   image: {
     logo: {
       path: '~/assets/img/VUE_JS.svg'
     },
     footerLogo: {
       path: '~/assets/img/VUE_JS_Footer.svg'
-    },
+    }
   },
   layouts: {
     '*': {
