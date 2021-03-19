@@ -17,41 +17,35 @@
     "*.{js,vue}": "eslint",
     "*.{css,vue}": "stylelint"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/pwa": "^3.3.4",
-    "@vuefront/checkout-app": "0.1.4",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@vuefront/checkout-app": "0.1.5",
     "cookie-universal-nuxt": "^2.1.4",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.3",
     "nuxt-compress": "^4.1.0",
-    "vuefront-nuxt": "0.3.29"
+    "vuefront-nuxt": "0.3.34"
   },
   "devDependencies": {
-    "@babel/runtime-corejs2": "^7.12.5",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@nuxtjs/eslint-config": "^5.0.0",
+    "@babel/runtime-corejs2": "^7.13.10",
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-preval": "^5.0.0",
     "core-js": "2",
-    "eslint": "^7.17.0",
+    "eslint": "^7.22.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "husky": "^4.3.7",
-    "lint-staged": "^10.5.3",
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
     "lodash-webpack-plugin": "^0.11.6",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
-    "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0"
   }
 }

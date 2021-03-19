@@ -1,9 +1,9 @@
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin'
 require('dotenv').config()
-
+const isDev = process.env.NODE_ENV === 'development'
 export default {
   ssr: true,
-  target: 'static',
+  target: isDev ? 'server' : 'static',
   modern: 'client',
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
