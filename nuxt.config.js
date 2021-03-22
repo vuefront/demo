@@ -34,7 +34,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     'vuefront-nuxt',
-    'cookie-universal-nuxt'
+    'cookie-universal-nuxt',
   ],
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -54,9 +54,18 @@ export default {
     transpile: ['@vuefront/checkout-app'],
     extractCSS: true,
     splitChunks: {
-      layouts: true,
-      pages: true,
-      commons: true
+      layouts: false,
+      pages: false,
+      commons: false,
+    },
+    optimization: {
+      splitChunks: {
+        chunks: "all",
+        automaticNameDelimiter: ".",
+        name: "test",
+        maxSize: 256000,
+        minSize: 50000,
+      },
     },
     postcss: {
       preset: {
