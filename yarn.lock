@@ -11447,10 +11447,10 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuefront-nuxt@0.3.37:
-  version "0.3.37"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.37.tgz#9fabccb8d5132491fee9df8d26db118bd5335147"
-  integrity sha512-MinNcytoiOFU0igPl6FbWEdOCgR2lZJfYfEanK7NtHP41iHVXU7NMFZ3VAt2K8DhITheQGt6zbRs3WYmhEdgCQ==
+vuefront-nuxt@0.3.38:
+  version "0.3.38"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.38.tgz#5d358f223a79a381b473e8903d572e7de500f18a"
+  integrity sha512-Tcv7LMUa7UPpg4/oYscNQLhGzxhutuo4bQyGoc334upL0+d7LaX0hjqrdsV85dqoKa1lVrSlcRft2amKgabUpw==
   dependencies:
     "@types/node" "^14.14.35"
     apollo-boost "^0.4.9"
@@ -11465,12 +11465,12 @@ vuefront-nuxt@0.3.37:
     vue "^2.6.12"
     vue-graphql-loader "^0.3.3"
     vue-i18n "^8.24.1"
-    vuefront "0.3.30"
+    vuefront "0.3.31"
 
-vuefront@0.3.30:
-  version "0.3.30"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.3.30.tgz#a9ecafca5f119834de4dee30efbb748f3a413569"
-  integrity sha512-CZZ3k0jO2szzBVqXHkRxkqyV1Mbbm8as+L68Iwh2Z9+yl2so9dnEBC719fe8JaweLWgBkPaDfBAl2SiZqL7QTw==
+vuefront@0.3.31:
+  version "0.3.31"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.3.31.tgz#56f4b03151167bd33f8ba114b286a44d5fe2d0c2"
+  integrity sha512-R10aq/oJLbiN84Mo8kDea98sbiM0nc9L23VtFELIn9NZhkZwN/PBAdBkmo4ZyQfoOFf7hvXbsmlRdu5UhL5F7w==
   dependencies:
     "@babel/standalone" "^7.13.7"
     "@jamescoyle/vue-icon" "^0.1.0"
