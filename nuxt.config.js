@@ -53,11 +53,6 @@ export default {
     },
     transpile: ['@vuefront/checkout-app'],
     extractCSS: true,
-    // splitChunks: {
-    //   layouts: false,
-    //   pages: false,
-    //   commons: false
-    // },
     optimization: {
       splitChunks: {
         chunks: 'all',

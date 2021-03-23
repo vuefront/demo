@@ -25,6 +25,7 @@
     "cookie-universal-nuxt": "^2.1.4",
     "nuxt": "^2.15.3",
     "nuxt-compress": "^4.1.0",
+    "vuefront": "vuefront/vuefront#tailwind",
     "vuefront-nuxt": "0.3.38"
   },
   "devDependencies": {
