@@ -4,7 +4,7 @@ const isDev = process.env.NODE_ENV === 'development'
 export default {
   ssr: true,
   target: isDev ? 'server' : 'static',
-  modern: 'client',
+  modern: !isDev ? 'client' : false,
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
@@ -52,7 +52,7 @@ export default {
       plugins: ['lodash', 'preval']
     },
     transpile: ['@vuefront/checkout-app'],
-    extractCSS: true,
+    extractCSS: !isDev,
     optimization: {
       splitChunks: {
         chunks: 'all',

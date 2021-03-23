@@ -11497,7 +11497,7 @@ vuefront@0.3.31:
 
 vuefront@vuefront/vuefront#tailwind:
   version "0.3.31"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/483a72b65ee0998d483539cd4191c2ccde2ba3bb"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/4fac665f9952b4f89aa48464b6a18c94a8b5c04d"
   dependencies:
     "@babel/standalone" "^7.13.7"
     "@jamescoyle/vue-icon" "^0.1.0"
