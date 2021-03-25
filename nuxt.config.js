@@ -11,7 +11,7 @@ export default {
   generate: {
     concurrency: 5,
     subFolders: false,
-    crawler: false
+    crawler: true
   },
   head: {
     title: 'vuefront',
@@ -33,8 +33,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
-    'vuefront-nuxt',
-    'cookie-universal-nuxt'
+    'vuefront-nuxt'
   ],
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -60,17 +59,6 @@ export default {
         name: 'test',
         maxSize: 256000,
         minSize: 50000
-      }
-    },
-    postcss: {
-      preset: {
-        features: {
-          // Fixes: https://github.com/tailwindcss/tailwindcss/issues/1190#issuecomment-546621554
-          'focus-within-pseudo-class': false
-        }
-      },
-      plugins: {
-        tailwindcss: {}
       }
     },
     plugins: [
