@@ -21,10 +21,10 @@
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
-    "@vuefront/checkout-app": "0.1.7",
-    "nuxt": "^2.15.3",
-    "nuxt-compress": "^4.1.0",
-    "vuefront-nuxt": "0.3.42"
+    "@vuefront/checkout-app": "0.1.9",
+    "nuxt": "^2.15.4",
+    "nuxt-compress": "^5.0.0",
+    "vuefront-nuxt": "0.3.45"
   },
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.13.10",
