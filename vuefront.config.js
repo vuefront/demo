@@ -1,6 +1,5 @@
-
 export default {
-  app: ['@vuefront/checkout-app'],
+  app: ["@vuefront/checkout-app"],
   image: {
     logo: {
       path: '~/assets/img/VUE_JS.svg'
@@ -110,5 +109,5 @@ export default {
     '/store/checkout': {
       contentTop: ['Checkout']
     }
-  }
-}
+  },
+};

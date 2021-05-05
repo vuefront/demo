@@ -21,13 +21,12 @@
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
-    "@vuefront/checkout-app": "0.1.9",
-    "nuxt": "^2.15.4",
+    "@vuefront/checkout-app": "^0.1.9",
+    "nuxt": "2.15.4",
     "nuxt-compress": "^5.0.0",
-    "vuefront-nuxt": "0.3.48"
+    "vuefront-nuxt": "0.3.49"
   },
   "devDependencies": {
-    "@babel/runtime-corejs2": "^7.13.10",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "@nuxtjs/eslint-config": "^6.0.0",
@@ -37,15 +36,27 @@
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-preval": "^5.0.0",
     "core-js": "2",
-    "eslint": "^7.22.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "husky": "^5.1.3",
-    "lint-staged": "^10.5.4",
+    "eslint": "^7.23.0",
+    "eslint-plugin-nuxt": ">=2.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "lodash-webpack-plugin": "^0.11.6",
-    "node-sass": "^5.0.0",
-    "postcss": "^8.2.8",
+    "prettier": "^2.2.1",
+    "postcss": "^8.2.9",
     "sass-loader": "^10.1.1",
     "stylelint": "^13.12.0",
-    "stylelint-config-standard": "^21.0.0"
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-scss": "^3.19.0",
+    "cz-conventional-changelog": "3.3.0",
+    "sass": "^1.32.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }

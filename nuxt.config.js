@@ -1,39 +1,46 @@
-import LodashModuleReplacementPlugin from 'lodash-webpack-plugin'
-require('dotenv').config()
-const isDev = process.env.NODE_ENV === 'development'
+require("dotenv").config();
+const LodashModuleReplacementPlugin = require("lodash-webpack-plugin");
+const isDev = process.env.NODE_ENV === "development";
+
+const modules = [];
+
+if (!isDev) {
+  modules.push("@nuxtjs/pwa");
+}
+
 export default {
   ssr: true,
-  target: isDev ? 'server' : 'static',
-  modern: !isDev ? 'client' : false,
+  target: isDev ? "server" : "static",
+  // modern: !isDev ? "client" : false,
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
   generate: {
     concurrency: 5,
     subFolders: false,
-    crawler: true
+    crawler: false,
   },
   head: {
-    title: 'vuefront',
+    title: "vuefront",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'VueFront' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { hid: "description", name: "description", content: "VueFront" },
     ],
     link: [
       {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicon.png'
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon.png",
       }
     ],
-    script: []
+    script: [],
   },
-  loading: { color: '#3B8070' },
+  loading: { color: "#3B8070" },
   modules: [
-    '@nuxtjs/pwa',
-    '@nuxtjs/dotenv',
-    'vuefront-nuxt'
+    "@nuxtjs/dotenv",
+    "vuefront-nuxt",
+    ...modules,
   ],
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -48,23 +55,24 @@ export default {
   // },
   build: {
     babel: {
-      plugins: ['lodash', 'preval']
+      plugins: ["lodash", "preval"],
     },
-    transpile: ['@vuefront/checkout-app'],
+    transpile: ["@vuefront/checkout-app"],
     extractCSS: !isDev,
+    corejs: 2,
     optimization: {
       splitChunks: {
-        chunks: 'all',
-        automaticNameDelimiter: '.',
-        name: 'test',
+        chunks: "all",
+        automaticNameDelimiter: ".",
+        name: "test",
         maxSize: 256000,
-        minSize: 50000
-      }
+        minSize: 50000,
+      },
     },
     plugins: [
       new LodashModuleReplacementPlugin({
-        shorthands: true
-      })
-    ]
-  }
-}
+        shorthands: true,
+      }),
+    ],
+  },
+};

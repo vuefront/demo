@@ -1,18 +1,15 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true
-  },
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
+    "prettier",
+    "plugin:prettier/recommended",
   ],
-  plugins: [
-  ],
-  // add your custom rules here
-  rules: {}
-}
+  plugins: ["prettier"],
+  rules: {
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    camelcase: "off",
+    "vue/max-attributes-per-line": "off",
+    "vue/require-prop-types": "off",
+  },
+};
