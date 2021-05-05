@@ -9,9 +9,9 @@ if (!isDev) {
 }
 
 export default {
-  ssr: true,
+  ssr: false,
   target: isDev ? "server" : "static",
-  // modern: !isDev ? "client" : false,
+  modern: !isDev ? "client" : false,
   env: {
     FEATURED_PRODUCT: process.env.FEATURED_PRODUCT
   },
@@ -55,7 +55,7 @@ export default {
   // },
   build: {
     babel: {
-      plugins: ["lodash", "preval"],
+      plugins: ["lodash", "preval", ["@babel/plugin-proposal-private-methods", { "loose": true }]],
     },
     transpile: ["@vuefront/checkout-app"],
     extractCSS: !isDev,
