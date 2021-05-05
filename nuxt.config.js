@@ -18,7 +18,7 @@ export default {
   generate: {
     concurrency: 5,
     subFolders: false,
-    crawler: false,
+    crawler: true,
   },
   head: {
     title: "vuefront",
