@@ -1,19 +1,14 @@
 module.exports = {
+  purge: [],
   darkMode: false, // or 'media' or 'class'
-  // theme: {
-  //   extend: {
-  //     vuefront: {
-  //       colors: {
-  //         primary: 'red'
-  //       }
-  //     }
-  //   }
-  // },
+  theme: {
+    extend: {},
+  },
   variants: {
-    extend: {}
+    extend: {},
   },
   plugins: [
-    require("@tailwindcss/forms"),
-    require("vuefront/tailwind/plugin.js"),
+    require('@tailwindcss/forms'),
+    require('vuefront/tailwind/plugin.js')
   ],
 }
