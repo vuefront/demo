@@ -13,7 +13,7 @@ module.exports = {
     extend: {}
   },
   plugins: [
-    require('@tailwindcss/custom-forms'),
-    require('vuefront/tailwind/plugin.js')
-  ]
+    require("@tailwindcss/forms"),
+    require("vuefront/tailwind/plugin.js"),
+  ],
 }

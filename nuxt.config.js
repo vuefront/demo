@@ -9,7 +9,7 @@ if (!isDev) {
 }
 
 export default {
-  ssr: false,
+  ssr: true,
   target: isDev ? "server" : "static",
   modern: !isDev ? "client" : false,
   env: {
