@@ -2813,10 +2813,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vuefront/checkout-app@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@vuefront/checkout-app/-/checkout-app-0.1.23.tgz#8e3029fdd42fa2faeca07dc9a51de16450c14904"
-  integrity sha512-lIg18CkrZPs70RCWUxNNsW9mENctt6JjjggLUThml2P/tKBoYm/bPv78+rzg09kd37zy8nhcdpXRj+pPoyfSBQ==
+"@vuefront/checkout-app@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@vuefront/checkout-app/-/checkout-app-0.2.0.tgz#bcc1ac2da6c2696d7b045ab10d7c25c3a86f2702"
+  integrity sha512-kGea0Eqz49XUuhEWhxrL3z7Bb2j/qLfuU+eP+jYKo9GpMvvNgLBgZ9X2NESeEg/RjrMj7DwiO1d5k0E96Q7f/Q==
   dependencies:
     lodash "^4.17.21"
 
@@ -14304,10 +14304,10 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
-vuefront-nuxt@0.3.82:
-  version "0.3.82"
-  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.3.82.tgz#029c40da999578c1df398ddea038eb5d69673a89"
-  integrity sha512-8dlHkhP/cWUrvJun6AsqeiT4hnCX5QNDjRRsEsl5yr3qIPwBfAm/dZPtsbg1uCCs28ZBM/1g6sUTxr6EMOrwXg==
+vuefront-nuxt@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vuefront-nuxt/-/vuefront-nuxt-0.4.0.tgz#ccd29a69f2bb11e887692f9831a9dfc1e1667f99"
+  integrity sha512-gKnVa5IyfmnVpAzMqK0B89E0ljcO6OJfWmnCsVd53bxiWyWd5FAF0zo4tuVqIvix8BYk3ICJkBB3ptWffU1CUA==
   dependencies:
     "@nuxtjs/apollo" "^4.0.1-rc.5"
     "@nuxtjs/tailwindcss" "^4.2.1"
@@ -14321,10 +14321,10 @@ vuefront-nuxt@0.3.82:
     vue-graphql-loader "^0.3.3"
     vue-i18n "^8.25.0"
 
-vuefront@^0.3.78:
-  version "0.3.78"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.3.78.tgz#6957db64592692cc3c60f94e52d34c5419d59c32"
-  integrity sha512-dOVym/M4GymFgeXI26kViCZYCgYTkXTDa/gN+Zp11Zq59/LB9/l8lSumrL5Nb51/TmUM8fGH39KaW1QYRqjwAw==
+vuefront@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.4.0.tgz#395039edd5a3ccc94e3491b6742134cf372160ac"
+  integrity sha512-/zTHWERAOTA5f6RUR7FVdIJqfgRfcMx/HZD/yNnkBdfw2ypJOZPrc5JsmdXnw27tHtqwExIcyeX+hEKgisZ3KA==
   dependencies:
     "@babel/standalone" "^7.14.7"
     "@jamescoyle/vue-icon" "^0.1.0"
